@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter sign-up form</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <article class="form" id="main">
+        <img
+            src="./assests/illustration-sign-up-mobile.svg"
+            class="illustration illustration-mobile"
+        />
+
+        <img
+            src="./assests/illustration-sign-up-desktop.svg"
+            class="illustration illustration-desktop"
+        />
+
+        <section class="form__content">
+
+            <h1 class="form__title">
+                Stay Updated!
+            </h1>
+
+            <p class="form__subtitle">
+                Join 60,000+ product managers receiving monthly updates on:
+            </p>
+
+            <ul class="form__list">
+                <li class="list__item">
+                    <img src="./assests/icon-list.svg"/>
+                    Product discovery and building what matters
+                </li>
+                <li class="list__item">
+                    <img src="./assests/icon-list.svg"/>
+                    Measuring to ensure updates are a success
+                </li>
+                <li class="list__item"> 
+                    <img src="./assests/icon-list.svg"/>
+                    And much more!
+                </li>
+            </ul>
+
+            <form id="form">
+
+                    
+                <label for="email">
+                    <span>Email addresss</span>
+                    <span id="error"></span>
+                </label>
+
+                <input
+                    name="email"
+                    id="email"
+                    placeholder="email@company.com"
+                />
+
+                <button type="submit">
+                    Subscribe to monthly newsletter
+                </button>
+
+            </form>
+
+        </section>
+
+    </article>
+
+    <article class="modal" id="modal">
+
+        <div class="modal__content">
+            <img 
+                src="./assests/icon-success.svg"
+                alt="success img"
+            />
+
+            <h1 class="modal__title">
+                Thanks for subscribing!
+            </h1>
+
+            <p class="modal__text">
+                A confirmation email has been sent to <b id="modal__email"></b>. 
+                Please open it and click the button inside to confirm 
+                your subscription
+            </p>
+        </div>
+
+        <button id="modalBtn">
+            Dismiss message
+        </button>
+
+    </article>
+
+    <script src="index.js"></script>
+</body>
+</html>
