@@ -6,11 +6,11 @@ This is a solution to the [Newsletter sign-up form with success message challeng
 
 - Clone the Repository
   ```html
-    <h1>git clone https://github.com/your-username/your-project.git </h1>
+    git clone git@github.com:webdevdojo23/FM-Newsletter-Form.git
   ```
 - Navigate to the Project Directory
   ```html
-    <h1>cd your-project</h1>
+    cd FM-Newsletter-Form
   ```
 - Open the Project in a Browser
     - Option 1: Open the index.html file in your favorite web browser.
@@ -33,8 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Live Site URL](https://webdevdojo23.github.io/FM-Newsletter-Form/)
 
 ## My process
 
